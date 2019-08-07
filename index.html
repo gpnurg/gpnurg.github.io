@@ -4,6 +4,22 @@
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #00cffb; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
 
 
 
@@ -44,12 +60,10 @@
         <header>
     <nav class="navbar">
         <div class="container">
-            <div class="navbar-header header-logo"><a href="/">广师杰哥软件分享基地</a></div>
+            <div class="navbar-header header-logo"><a href="/">首页</a></div>
             <div class="menu navbar-right">
                 
                     <a class="menu-item" href="/archives">所有内容</a>
-                
-                    <a class="menu-item" href="/about">关于</a>
                 
                 <input id="switch_default" type="checkbox" class="switch_default">
                 <label for="switch_default" class="toggleBtn"></label>
@@ -63,15 +77,13 @@
         <div class="container">
             <div class="navbar-header">
                 <div>
-                    <a href="/">广师杰哥软件分享基地</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
+                    <a href="/">首页</a><a id="mobile-toggle-theme">·&nbsp;Light</a>
                 </div>
                 <div class="menu-toggle" onclick="mobileBtn()">&#9776; Menu</div>
             </div>
             <div class="menu" id="mobile-menu">
                 
                     <a class="menu-item" href="/archives">所有内容</a>
-                
-                    <a class="menu-item" href="/about">关于</a>
                 
             </div>
         </div>
@@ -98,8 +110,8 @@
         <div class="avatar">
             <a href="/"><img src="/image/gpnujg.png"></a>
         </div>
-        <div class="nickname">广师杰哥</div>
-        <div class="description"><p>软件分享者</p>
+        <div class="nickname">Jack</div>
+        <div class="description"><p>Love to share.</p>
 </div>
         <div class="links">
             
